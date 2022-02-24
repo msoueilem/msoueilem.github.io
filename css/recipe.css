@@ -1,0 +1,39 @@
+h1{
+    color: #A4A400;
+    font-size: 22pt;
+    text-decoration-line: underline;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: #A4A400;
+    font-size: 18pt;
+    text-decoration-line: underline;
+    font-weight: normal;
+    text-align: left;
+    background-color: #F0F0F0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    /* background-color: #404040; */
+    font-size: 11px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a{
+    color: #A4A400 ;
+}
+
+
+.quote{
+    background-color: #FFFFA8;
+}
+.copyright{
+    font-family: monospace;
+    text-align: right;
+    width: 30%;
+}
