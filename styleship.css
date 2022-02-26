@@ -1,0 +1,37 @@
+*{
+    border: 2px dashed black;
+}
+body{
+    justify-items: center;
+}
+.container{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+    display: flex;
+}
+.rightPane{
+    width: 20%;
+    background-color: red;
+}
+.leftPane{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(230, 198, 59);
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    background-color: aqua;
+    width: 40%;
+    height: 20%;
+}
+.first{
+    background-color: cadetblue;
+}
+.second{
+    background-color: bisque;
+}
+.fourth{
+    background-color: brown;
+}

@@ -1,20 +1,120 @@
-body{
+body {
     background-image: url(../asset/images/background.png);
     font-size: 8px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-left: 20%;
-    padding-right: 20%; */
 }
 
-.top{
+.top {
     background-image: url(../asset/images/bannerbg.png);
     text-align: center;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
     text-shadow: 3px 3px #999999;
     font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 550px 250px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: gray;
+    border-radius: 20px;
+}
+dl{
+    font-weight: lighter;
+}
+dl::after{
+    height: 20px;
+}
+dt{
+    font-weight: bold;
+    padding-top:  10px;
+}
+
+.reviewBox{
+    border: 2px thick;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 8px;
+    background-color: #E8DC9B;
+    margin: 8px;
+    padding-right: 5px;
+}
+.numbered{
+    width: 100%;
+    text-align: center;
+    background-color: #A2B964;
+}
+.textGird{
+    display: flex;
+    padding: 5px;
+}
+
+/* p{
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 2px;
+    width: 47%;
+} */
+
+.header {
+    display: grid;
+    grid-template-areas: "left right";
+    height: 83px;
+    background-image: url(../asset/images/rbg.png);
+    width: 100%;
+    font-size: 60px;
+    color: red;
+    font-weight: 800;
+}
+
+.sideText{
+    padding: 10px;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imageHeader{
+    position: absolute;
+    grid-area: left;
+}
+
+#textID{
+    position:relative;
+    grid-area: right;
+    
+}
+
+
+.rightPane {
+    grid-area: right;
+    /* width: 250px; */
+    
+    background-color: #A2B964;
+
+}
+
+.leftPane {
+    grid-area: left;
+    /* border-right: 4px solid gray; */
+    width: auto;
+
+}
+
+.rightimage {
+    width: 154;
+}
+
+.footer {
+    text-align: right;
 }
