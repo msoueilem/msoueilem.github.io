@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="../JS/main.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        article.blog p{
+            background-color: red;
+        }
+        body {
+            display: grid;
+            place-content: center;
+        }
+
+        input[type="text"], input[type="number"], input[type="date"] {
+            margin-bottom: 20px;
+            padding: 3px;
+            width: 50%;
+        }
+        .buttons{
+            float: right;
+            padding-top: 5px;
+            padding-bottom: 50px;
+            /* display: grid; */
+            /* position: absolute;
+            right: 300px;
+            place-content: right; */
+        }
+
+        table,
+        td,
+        tr,
+        th {
+            border: 1px solid black;
+            /* width: 100%; */
+            border-collapse: collapse;
+
+        }
+    </style>
+    <title>Page</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Student registration Form</h1>
+    </header>
+
+    <form action="#" method="post">
+        <div><span>Note: Fildes marked astericks (*) are required.</span></div>
+        <fieldset>
+            <legend>Bio Date</legend>
+            <span>Full name:*</span>
+            <div> 
+                <input type="text" name="fullName" id="fullName" placeholder="Enter Full Name" pattern="[a-zA-z]{8}" required>
+            </div>
+            <span>Date of Birth:*</span>
+            <div> 
+                <input type="date" name="fullName" id="fullName" placeholder="Enter Date of Birth" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Academics enrollement data
+            </legend>
+            <span>Student ID:*</span>
+            <div> 
+                <input type="number" name="fullName" id="fullName" placeholder="000-xx-xxx" pattern="000-\d{2}-\d{3}" required>
+            </div>
+            <span>Level of study:*</span>
+            <div> 
+                <input type="radio" id="level" name="grad" value="grad" checked>
+                <label for="grad">Graduate</label>
+                <input type="radio" id="level" name="under" value="under">
+                <label for="under">UnderGrad</label>
+            </div>
+        </fieldset>
+        <div class="buttons">
+            <input type="reset" value="Reset">
+            <input type="reset" value="Cancel">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    <div style="height: 100px;"></div>
+
+    <table>
+        <tr>
+            <th rowspan="2">First</th>
+            <th rowspan="2">First</th>
+            <th colspan="2">First</th>
+        </tr>
+        <tr>
+
+            <td>First2</td>
+            <td>First3</td>
+
+
+        </tr>
+        <tr>
+
+            <th rowspan="3">First6</th>
+            <td>First7</td>
+            <td>First8</td>
+            <td>First8</td>
+        </tr>
+        <tr>
+
+            <td>First6</td>
+            <td>First7</td>
+            <td>First8</td>
+        </tr>
+        <tr>
+            <td>First5</td>
+            <td>First6</td>
+            <td>First7</td>
+
+        </tr>
+        <tr>
+            <th rowspan="3">First5</th>
+            <td>First6</td>
+            <td>First7</td>
+            <td>First8</td>
+        </tr>
+        <tr>
+            <td>First5</td>
+            <td>First6</td>
+            <td>First7</td>
+
+        </tr>
+        <tr>
+            <td>First5</td>
+            <td>First6</td>
+            <td>First7</td>
+
+        </tr>
+
+    </table>
+    <article class="blog">
+
+
+
+        <section>To display a hyperlink to MUM website, like this <a href="http://www.mum.edu/">Maharishi University of
+                Managment</a>, type the following HTML code:
+            <p>
+                &lt;p&gt;&lt;a href=&quot;http://www.mum.edu/&quot;&gt;Maharishi University of
+                Managment&lt;/a&gt;&lt;/p&gt;
+            </p>
+        </section>
+    </article>
+
+    <form action="#" method="post">
+        <input type="email" name="email" id="email">
+    </form>
+    <a href="http://www.google.com">Google</a>
+</body>
+
+</html>
