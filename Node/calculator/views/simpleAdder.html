@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator WebSite</title>
+    <style>
+        div {
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Assignment 13 - Calculator Website</h1>
+    
+    <h2>Calculator WebApp - Please fill the form below & Choose the action.</h2>
+
+    <form action="http://localhost:3000/result" method="POST">
+        <div>Enter two numbers: <br>
+            <input type="number" name="first" step="0.01" /> <br>
+            <input type="number" name="second" step="0.01" /> <br>
+            <input type="submit" value="Calculate the numbers" />
+        </div>
+        <div>
+            Choose action to perform: <select name="action" id="ddlActions">
+                <option value="add">Add</option>
+                <option value="subtract">Subtract</option>
+                <option value="multiply">Multiply</option>
+                <option value="divide">Divide</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>

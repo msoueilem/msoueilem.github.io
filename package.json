@@ -1,5 +1,21 @@
 {
+  "name": "first",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "adderwebserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
-    "moment": "^2.29.1"
+    "cookie-parser": "^1.4.6"
   }
 }
